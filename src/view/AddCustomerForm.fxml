@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AddCustomerFormContext" prefHeight="760.0" prefWidth="630.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Customer.AddCustomerFormController">
+   <children>
+      <Button fx:id="btnAddCustomer" layoutX="80.0" layoutY="632.0" mnemonicParsing="false" onAction="#AddCustomerOnAction" prefHeight="45.0" prefWidth="211.0" style="-fx-background-color: #218c74; -fx-background-radius: 8;" text="Add Customer" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="txtCustomerID" layoutX="77.0" layoutY="138.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <TextField fx:id="txtTitle" layoutX="77.0" layoutY="238.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="122.0" promptText="(Mrs/Miss/Mr)" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Pane prefHeight="85.0" prefWidth="643.0" style="-fx-background-color: #10ac84;">
+         <children>
+            <Label layoutX="218.0" layoutY="25.0" text="Add Customer" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="77.0" layoutY="109.0" text="Customer ID">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="204.0" text="Title">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAddress" layoutX="77.0" layoutY="340.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="77.0" layoutY="306.0" text="Address">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCity" layoutX="77.0" layoutY="436.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="220.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="77.0" layoutY="402.0" text="City">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtProvince" layoutX="77.0" layoutY="529.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="77.0" layoutY="495.0" text="Province">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCustomerName" layoutX="215.0" layoutY="238.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="343.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="215.0" layoutY="204.0" text="Customer Name">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPostalCode" layoutX="337.0" layoutY="436.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="220.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="337.0" layoutY="402.0" text="Postal Code">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

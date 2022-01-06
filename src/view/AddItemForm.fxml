@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AddItemFormContext" prefHeight="760.0" prefWidth="630.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Item.AddItemFormController">
+   <children>
+      <Button fx:id="btnAddItem" layoutX="70.0" layoutY="632.0" mnemonicParsing="false" onAction="#AddItemOnAction" prefHeight="45.0" prefWidth="211.0" style="-fx-background-color: #218c74; -fx-background-radius: 8;" text="Add Item" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="txtItemCode" layoutX="67.0" layoutY="138.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <TextField fx:id="txtDescription" layoutX="67.0" layoutY="238.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Pane layoutX="-10.0" prefHeight="85.0" prefWidth="643.0" style="-fx-background-color: #10ac84;">
+         <children>
+            <Label layoutX="253.0" layoutY="25.0" text="Add Item" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="67.0" layoutY="109.0" text="Item Code">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="204.0" text="Description">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPackSize" layoutX="68.0" layoutY="339.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="68.0" layoutY="305.0" text="Pack Size">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtQtyOnHand" layoutX="67.0" layoutY="440.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="67.0" layoutY="406.0" text="QtyOnHand">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUnitPrice" layoutX="68.0" layoutY="539.0" onKeyReleased="#textFieldsKeyReleased" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="68.0" layoutY="505.0" text="Unit Price">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

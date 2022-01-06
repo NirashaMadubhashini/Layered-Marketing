@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ManageItemFormContext" prefHeight="1000.0" prefWidth="1950.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Item.ManageItemFormController">
+   <children>
+      <Pane layoutX="-10.0" prefHeight="67.0" prefWidth="1964.0" style="-fx-background-color: #27ae60;">
+         <children>
+            <Label layoutX="71.0" layoutY="18.0" text="GoldenFresh SuperMarket" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="33.0" fitWidth="37.0" layoutX="29.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/7.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="1741.0" layoutY="4.0" mnemonicParsing="false" onAction="#ManageItemLogOutOnAction" prefHeight="50.0" prefWidth="153.0" style="-fx-background-color: #27ae60; -fx-background-radius: 8;" text="    Log Out" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="1753.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/8.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="150.0" layoutY="106.0" text="Manage Items">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="150.0" layoutY="161.0" prefHeight="2.0" prefWidth="199.0" />
+      <TableView fx:id="tblManageItem" layoutX="150.0" layoutY="248.0" prefHeight="480.0" prefWidth="1655.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0">
+        <columns>
+          <TableColumn fx:id="colItemCode" prefWidth="190.0" text="Item Code" />
+          <TableColumn fx:id="colDescription" prefWidth="392.0" text="Description" />
+            <TableColumn fx:id="colPackSize" prefWidth="226.0" text="Pack Size" />
+            <TableColumn fx:id="colQtyOnHand" prefWidth="186.0" text="QtyOnHand" />
+            <TableColumn fx:id="colUnitPrice" prefWidth="218.0" text="Unit Price" />
+            <TableColumn fx:id="colUpdate" prefWidth="221.0" text="Update" />
+            <TableColumn fx:id="colDelete" prefWidth="220.0" text="Delete" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

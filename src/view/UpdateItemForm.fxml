@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="UpdateItemFormContext" prefHeight="650.0" prefWidth="645.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Item.UpdateItemFormController">
+   <children>
+      <Button fx:id="btnUpdateItem" layoutX="78.0" layoutY="546.0" mnemonicParsing="false" onAction="#UpdateItemOnAction" prefHeight="45.0" prefWidth="211.0" style="-fx-background-color: #218c74; -fx-background-radius: 8;" text="Update Item" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="txtUpdateDescription" layoutX="75.0" layoutY="152.0" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Pane prefHeight="85.0" prefWidth="645.0" style="-fx-background-color: #10ac84;">
+         <children>
+            <Label layoutX="253.0" layoutY="25.0" text="Update Item" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="75.0" layoutY="118.0" text="Description">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUpdatePackSize" layoutX="76.0" layoutY="253.0" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="76.0" layoutY="219.0" text="Pack Size">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUpdateQtyOnHand" layoutX="75.0" layoutY="354.0" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="75.0" layoutY="320.0" text="QtyOnHand">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUpdateUnitPrice" layoutX="76.0" layoutY="453.0" prefHeight="40.0" prefWidth="480.0" style="-fx-border-color: #218c74; -fx-border-radius: 8;" />
+      <Label layoutX="76.0" layoutY="419.0" text="Unit Price">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

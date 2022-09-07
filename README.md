@@ -14,9 +14,9 @@ This is the first project done by using Layered Architecture
 ![addCustomer](src/assets/projects/addcustomer.png)<br>
 ![manage Customer](src/assets/projects/managecustomer.png)<br>
 <b>#Item DashBoard<br><b>
-![park](src/assets/projects/admindash.png)<br>
-![park](src/assets/projects/add.png)<br>
-![park](src/assets/projects/manage.png)<br>
+![itemDash](src/assets/projects/admindash.png)<br>
+![add](src/assets/projects/add.png)<br>
+![manage](src/assets/projects/manage.png)<br>
 <b>#PlaceOrder<br><b>
 ![manage](src/assets/projects/placeorder.png)<br>
 <b>#Order Details<br></b>

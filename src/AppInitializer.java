@@ -14,7 +14,7 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/LoginForm.fxml"))));
+        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/CashierForm.fxml"))));
         primaryStage.setMaximized(true );
         primaryStage.setTitle("GoldenFresh SuperMarket");
         primaryStage.getIcons().add(new Image("assets/1.png"));

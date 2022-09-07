@@ -10,9 +10,9 @@ This is the first project done by using Layered Architecture
 <b>#Login<br></b>
 ![login](src/assets/projects/login.png)<br>
 <b>#Customer DashBoard<br><b>
-![delivery](src/assets/projects/customerdash.png)<br>
-![delivery](src/assets/projects/addcustomer.png)<br>
-![delivery](src/assets/projects/managecustomer.png)<br>
+![customerDash](src/assets/projects/customerdash.png)<br>
+![addCustomer](src/assets/projects/addcustomer.png)<br>
+![manage Customer](src/assets/projects/managecustomer.png)<br>
 <b>#Item DashBoard<br><b>
 ![park](src/assets/projects/admindash.png)<br>
 ![park](src/assets/projects/add.png)<br>

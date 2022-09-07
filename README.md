@@ -18,7 +18,7 @@ This is the first project done by using Layered Architecture
 ![add](src/assets/projects/add.png)<br>
 ![manage](src/assets/projects/manage.png)<br>
 <b>#PlaceOrder<br><b>
-![manage](src/assets/projects/placeorder.png)<br>
+![placeOrder](src/assets/projects/placeorder.png)<br>
 <b>#Order Details<br></b>
 ![order](src/assets/projects/orderDetails.png)
 <b>#Income<br><b>

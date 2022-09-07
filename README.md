@@ -22,7 +22,7 @@ This is the first project done by using Layered Architecture
 <b>#Order Details<br></b>
 ![order](src/assets/projects/orderDetails.png)
 <b>#Income<br><b>
-![add](src/assets/projects/income.png)<br>
+![Income](src/assets/projects/income.png)<br>
 
 
 
